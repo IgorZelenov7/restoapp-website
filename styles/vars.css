@@ -1,0 +1,13 @@
+:root {
+  --font-main: "Inter", system-ui, sans-serif;
+
+  --color-black: #1c1c1c;
+  --color-white: #ffffff;
+  --color-grey: #727272;
+  --color-dark-grey: #555555;
+  --color-light-grey: #f4f4f4;
+  --color-badges-right: #fedd2c;
+  --color-text-footer: #a6a6a6;
+  --color-icon-bg: #393939;
+  --color-btn-hover: #E8E8E8;
+}

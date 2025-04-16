@@ -1,0 +1,35 @@
+.promo {
+  min-width: 1440px;
+  height: 48px;
+  background-color: var(--color-black);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.2s ease;
+}
+
+.promo__text {
+  color: var(--color-white);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.promo__button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.promo__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.promo--hidden {
+  display: none;
+}
+
+

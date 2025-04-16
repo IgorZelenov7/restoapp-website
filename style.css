@@ -1,0 +1,58 @@
+@import url("./styles/normalize.css");
+@import url("./styles/fonts.css");
+@import url("./styles/vars.css");
+
+@import url("./styles/blocks/contacts.css");
+@import url("./styles/blocks/header.css");
+@import url("./styles/blocks/cards.css");
+@import url("./styles/blocks/event.css");
+@import url("./styles/blocks/promo.css");
+@import url("./styles/blocks/menu.css");
+@import url("./styles/blocks/info.css");
+@import url("./styles/blocks/nav.css");
+@import url("./styles/blocks/footer.css");
+@import url("./styles/blocks/copyright.css");
+
+body {
+  font-family: var(--font-main);
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+.none {
+  display: none;
+}
+
+.section {
+  padding: 32px 0;
+}
+
+.container {
+  width: 1440px;
+  margin-inline: auto;
+  padding-inline: 64px;
+}
+
+.title-h2 {
+  color: var(--color-black);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 32px;
+}
+
+.places {
+  padding-bottom: 64px;
+}
+
+
+

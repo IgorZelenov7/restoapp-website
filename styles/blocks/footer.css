@@ -1,0 +1,142 @@
+.footer {
+  min-width: 1440px;
+  background-color: var(--color-black);
+}
+
+.container--footer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contacts--footer {
+  align-items: flex-start;
+}
+
+.footer__socials-list {
+  display: flex;
+  column-gap: 8px;
+}
+
+.phone--footer {
+  font-size: 24px;
+  color: var(--color-light-grey);
+}
+
+.phone--footer:hover {
+  color: var(--color-text-footer);
+}
+
+.text--footer {
+  font-size: 14px;
+  color: var(--color-text-footer);
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__logo {
+  width: 284px;
+}
+
+.footer__link {
+  color: var(--color-text-footer);
+  transition: color 0.2s;
+  height: 40px;
+  width: 40px;
+  padding: 8px;
+  background-color: var(--color-icon-bg);
+  border-radius: 8px;
+}
+
+.footer__link:hover {
+  color: var(--color-white);
+}
+
+.footer--link {
+  color: var(--color-light-grey);
+}
+
+.footer--link:hover {
+  color: var(--color-text-footer);
+}
+
+.app {
+  display: flex;
+  column-gap: 8px;
+}
+
+.app__link {
+  position: relative;
+  display: block;
+  width: 138px;
+  height: 40px;
+}
+
+.svg-title {
+  position: absolute;
+  color: var(--color-text-footer);
+  transition: color 0.2s;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.svg__body {
+  color: var(--color-text-footer);
+  transition: color 0.2s;
+}
+
+.svg-title:hover {
+  color: var(--color-white);
+}
+
+.app__link:hover .svg-title,
+.app__link:hover .svg__body {
+  color: var(--color-white);
+}
+
+.copyright__pay-link {
+  display: block;
+  width: 48px;
+  height: 29px;
+  border-radius: 4px;
+  padding: 4px 8px;
+  color: var(--color-text-footer);
+  background: var(--color-icon-bg);
+}
+
+.mir {
+  padding-top: 2.5px;
+}
+
+.copyright__pay-link:hover {
+  color: var(--color-white);
+}
+
+.footer__line {
+  height: 1px;
+  background-color: var(--color-icon-bg);
+}
+
+.footer__preax-text {
+ text-align: center;
+}
+
+.footer__preax-link {
+  text-decoration: underline;
+  color: var(--color-text-footer);
+}
+
+.footer__preax-link:hover {
+  color: var(--color-white);
+}

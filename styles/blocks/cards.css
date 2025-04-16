@@ -1,0 +1,81 @@
+.card {
+  position: relative;
+  width: 304px;
+}
+
+.card__list {
+  display: flex;
+  column-gap: 32px;
+}
+
+.card__link {
+  display: flex;
+  flex-direction: column;
+}
+.card__img {
+  border-radius: 16px;
+}
+
+.card__title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-black);
+  margin-top: 16px;
+}
+
+.card__description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 16px;
+  color: var(--color-grey);
+}
+
+.card__button {
+  height: 56px;
+  border-radius: 16px;
+  background: var(--color-light-grey);
+  padding-inline: 24px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+}
+
+.card__button:hover {
+  background: var(--color-btn-hover);
+}
+
+.card__image-container {
+  position: relative;
+}
+
+.card__labels {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 8px;
+  top: 8px;
+  right: 8px;
+  z-index: 2;
+}
+
+.card__label {
+  width: 36px;
+  height: 36px;
+  z-index: 2;
+}
+
+.card__label--vegetarian {
+  background-image: url(../../icons/cards_label/vegetarian.svg);
+}
+
+.card__label--sharp {
+  background-image: url(../../icons/cards_label/sharp.svg);
+}
+
+.card__label--fish {
+  background-image: url(../../icons/cards_label/fish.svg);
+}

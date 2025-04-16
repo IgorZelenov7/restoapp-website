@@ -1,0 +1,30 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright__block {
+  display: flex;
+  column-gap: 16px;
+}
+
+.copyright__pay-list {
+  display: flex;
+  column-gap: 8px;
+}
+
+.copyright__text {
+  color: var(--color-text-footer);
+  font-size: 14px;
+}
+
+.copyright__link {
+  color: var(--color-text-footer);
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.copyright__link:hover {
+  color: var(--color-white);
+}

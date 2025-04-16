@@ -1,0 +1,13 @@
+.nav__list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.nav__link {
+  color: var(--color-dark-grey);
+  font-weight: 600;
+}
+
+.nav__link:hover {
+  color: var(--color-black);
+}

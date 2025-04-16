@@ -1,0 +1,57 @@
+.user-bar {
+  display: flex;
+  column-gap: 64px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  color: var(--color-dark-grey);
+}
+
+.contacts__phone {
+  color: var(--color-dark-grey);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contacts__text {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.contacts__phone:hover {
+  color: var(--color-black);
+}
+
+.user-bar__menu {
+  display: flex;
+  column-gap: 16px;
+}
+
+.user-bar__button {
+  height: 48px;
+  padding-inline: 14px;
+  border-radius: 16px;
+  border: 2px solid var(--color-black);
+  transition: all 0.2s ease;
+  background-color: var(--color-black);
+}
+
+.user-bar__icon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+/* Общие стили при наведении */
+.user-bar__button:hover {
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.user-bar__button:hover .user-bar__icon {
+  filter: brightness(0) invert(0);
+}
